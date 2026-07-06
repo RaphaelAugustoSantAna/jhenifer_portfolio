@@ -1,5 +1,8 @@
+import Home from "./components/home";
 function App() {
-  return <h1>Em Construção!!!</h1>;
+  return (
+    <Home />
+  )
 }
 
 export default App;
