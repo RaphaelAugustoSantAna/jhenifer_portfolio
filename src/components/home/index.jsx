@@ -12,6 +12,11 @@ function Home() {
         comunicação mais forte, profissional e conectada com vendas.
       </p>
       <img src="/imagens/foto_perfil.jpg" alt="Perfil" />
+      <div class="hero-buttons">
+        <a href="https://wa.me/5511960314542">
+          <button class="btn-primary">Solicitar Orçamento</button>
+        </a>
+      </div>
     </div>
   );
 }
