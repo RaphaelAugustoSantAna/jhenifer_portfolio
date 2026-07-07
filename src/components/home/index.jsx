@@ -1,6 +1,10 @@
+// import NavBar from "../navBar";
+
 function Home() {
   return (
     <div>
+      {/* <NavBar /> */}
+
       <h1>Olá, sou Jhenifer</h1>
       <p>
         Trabalho nos bastidores do digital para estruturar, organizar e fazer
