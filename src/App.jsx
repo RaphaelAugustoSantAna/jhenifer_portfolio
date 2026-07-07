@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom/cjs/react-router-dom.min";
+import { Route, Routes } from "react-router-dom";
 import Home from "./components/home";
 import Servicos from "./pages/servicos";
 import Sobre from "./pages/sobre";
@@ -8,7 +8,7 @@ function App() {
   return (
    
     <Routes>
-      <Route exact path="/" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/servicos" element={<Servicos />} />
       <Route path="/sobre" element={<Sobre />} />
       <Route path="/contato" element={<Contato />} />
