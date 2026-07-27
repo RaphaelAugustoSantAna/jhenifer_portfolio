@@ -20,9 +20,9 @@ function Home() {
           <div className="hero-image">
             <img src="/imagens/foto_perfil.jpg" alt="Jhenifer Albuquerque" />
           </div>
-          <div class="hero-buttons">
+          <div className="hero-buttons">
             <a href="https://wa.me/5511960314542">
-              <button class="btn-primary">Solicitar Orçamento</button>
+              <button className="btn-primary">Solicitar Orçamento</button>
             </a>
           </div>
         </div>
