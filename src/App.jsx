@@ -1,19 +1,22 @@
-// import { Route, Routes } from "react-router-dom";
-import Home from "./components/home";
-// import Servicos from "./pages/servicos";
-// import Sobre from "./pages/sobre";
-// import Contato from "./pages/contato";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Contato from "./pages/Contato";
+import Home from "./pages/Home";
+import Servicos from "./pages/Servicos";
+import Sobre from "./pages/Sobre";
 
 function App() {
   return (
-    <Home />
-    // <Routes>
-    //   <Route path="/" element={<Home />} />
-    //   <Route path="/servicos" element={<Servicos />} />
-    //   <Route path="/sobre" element={<Sobre />} />
-    //   <Route path="/contato" element={<Contato />} />
-    // </Routes>
-  )
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contato" element={<Contato />} />
+        <Route path="/servicos" element={<Servicos />} />
+        <Route path="/sobre" element={<Sobre />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;
