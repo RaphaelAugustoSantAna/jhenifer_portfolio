@@ -2,9 +2,15 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div>
-      <nav>
-        <ul>
+    <nav>
+      <div className="container">
+        <div className="logo">
+          <div className="logo-icon">JA</div>
+          <div>
+            <div>Jhenifer</div>
+          </div>
+        </div>
+        <ul className="nav-links">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -18,8 +24,8 @@ function NavBar() {
             <Link to="/contato">Contato</Link>
           </li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 }
 
