@@ -4,12 +4,12 @@ function NavBar() {
   return (
     <nav>
       <div className="container">
-        <div className="logo">
+        <Link to="/"><div className="logo">
           <div className="logo-icon">JA</div>
           <div>
             <div>Jhenifer</div>
           </div>
-        </div>
+        </div></Link>
         <ul className="nav-links">
           <li>
             <Link to="/">Home</Link>
