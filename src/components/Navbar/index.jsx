@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav>
       <div className="container">
-        <Link to="/">
+        <Link to="/" className="logo-button">
           <div className="logo">
             <div className="logo-icon">JA</div>
             <div>
