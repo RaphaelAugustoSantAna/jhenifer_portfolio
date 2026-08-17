@@ -1,5 +1,11 @@
+import About from "../../components/About";
+
 function Sobre() {
-  return <h1>Sobre</h1>;
+  return (
+    <>
+      <About />
+    </>
+  );
 }
 
 export default Sobre;

@@ -87,3 +87,61 @@
   margin-bottom: 30px;
   color: #1f2937;
 }
+
+.journey-items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.journey-item {
+  display: flex;
+  gap: 20px;
+}
+
+.journey-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.journey-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #2563eb;
+  margin-top: 8px;
+}
+
+.journey-line {
+  width: 2px;
+  height: 50px;
+  background: linear-gradient(180deg, #2563eb, #f97316);
+}
+
+.journey-step-title {
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 5px;
+}
+
+.journey-step-description {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.journey-dot-practicing {
+  background: #f97316;
+}
+
+.journey-line-practicing {
+  background: linear-gradient(180deg, #f97316, #9333ea);
+}
+
+.journey-dot-growing {
+  background: #9333ea;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}

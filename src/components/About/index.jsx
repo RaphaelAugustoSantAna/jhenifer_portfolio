@@ -56,102 +56,45 @@ function About() {
             </a>
           </div>
         </div>
-        <div className="journey"
-         
-        >
+        <div className="journey">
           <h3 className="journey-title">Minha Jornada</h3>
-          <div style="display: flex; flex-direction: column; gap: 30px">
-            <div style="display: flex; gap: 20px">
-              <div
-                style="
-                  display: flex;
-                  flex-direction: column;
-                  align-items: center;
-                "
-              >
-                <div
-                  style="
-                    width: 16px;
-                    height: 16px;
-                    border-radius: 50%;
-                    background: #2563eb;
-                    margin-top: 8px;
-                  "
-                ></div>
-                <div
-                  style="
-                    width: 2px;
-                    height: 50px;
-                    background: linear-gradient(180deg, #2563eb, #f97316);
-                  "
-                ></div>
+          <div className="journey-items">
+            <div className="journey-item">
+              <div className="journey-marker">
+                <div className="journey-dot"></div>
+                <div className="journey-line"></div>
               </div>
-              <div>
-                <p style="font-weight: 600; color: #1f2937; margin-bottom: 5px">
-                  Aprendendo
-                </p>
-                <p style="color: #6b7280; font-size: 0.95rem">
+
+              <div className="journey-content">
+                <p className="journey-step-title">Aprendendo</p>
+                <p className="journey-step-description">
                   Estudando tráfego pago e estratégia de conteúdo
                 </p>
               </div>
             </div>
-            <div style="display: flex; gap: 20px">
-              <div
-                style="
-                  display: flex;
-                  flex-direction: column;
-                  align-items: center;
-                "
-              >
-                <div
-                  style="
-                    width: 16px;
-                    height: 16px;
-                    border-radius: 50%;
-                    background: #f97316;
-                    margin-top: 8px;
-                  "
-                ></div>
-                <div
-                  style="
-                    width: 2px;
-                    height: 50px;
-                    background: linear-gradient(180deg, #f97316, #9333ea);
-                  "
-                ></div>
+
+            <div className="journey-item">
+              <div className="journey-marker">
+                <div className="journey-dot journey-dot-practicing"></div>
+                <div className="journey-line journey-line-practicing"></div>
               </div>
-              <div>
-                <p style="font-weight: 600; color: #1f2937; margin-bottom: 5px">
-                  Praticando
-                </p>
-                <p style="color: #6b7280; font-size: 0.95rem">
+
+              <div className="journey-content">
+                <p className="journey-step-title">Praticando</p>
+                <p className="journey-step-description">
                   Desenvolvendo campanhas e estratégias em operações reais
                 </p>
               </div>
             </div>
-            <div style="display: flex; gap: 20px">
-              <div
-                style="
-                  display: flex;
-                  flex-direction: column;
-                  align-items: center;
-                "
-              >
-                <div
-                  style="
-                    width: 16px;
-                    height: 16px;
-                    border-radius: 50%;
-                    background: #9333ea;
-                    margin-top: 8px;
-                  "
-                ></div>
+
+            <div className="journey-item">
+              <div className="journey-marker">
+                <div className="journey-dot journey-dot-growing"></div>
               </div>
-              <div>
-                <p style="font-weight: 600; color: #1f2937; margin-bottom: 5px">
-                  Crescendo
-                </p>
-                <p style="color: #6b7280; font-size: 0.95rem">
+
+              <div className="journey-content">
+                <p className="journey-step-title">Crescendo</p>
+                <p className="journey-step-description">
                   Construindo expertise, confiança e resultados reais
                 </p>
               </div>
