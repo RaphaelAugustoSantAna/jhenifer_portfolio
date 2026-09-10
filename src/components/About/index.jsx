@@ -24,21 +24,21 @@ function About() {
 
           <div className="highlights">
             <div className="highlight">
-              <div className="highlight-icon">✓</div>
+              <div className="highlight-icon highlight-strategy">✓</div>
               <div className="highlight-text">
                 <strong>Estratégia:</strong>
                 Visão clara de como tráfego, conteúdo e comunicação se conectam
               </div>
             </div>
             <div className="highlight">
-              <div className="highlight-icon orange">✓</div>
+              <div className="highlight-icon highlight-organization">✓</div>
               <div className="highlight-text">
                 <strong>Organização:</strong>
                 Estruturas que funcionam e escalas com o crescimento
               </div>
             </div>
             <div className="highlight">
-              <div className="highlight-icon purple">✓</div>
+              <div className="highlight-icon highlight-results">✓</div>
               <div className="highlight-text">
                 <strong>Resultados:</strong>
                 Foco em métricas, dados e crescimento real
@@ -46,7 +46,7 @@ function About() {
             </div>
           </div>
 
-          <div className="mt-4">
+          <div className="about-download">
             <a
               href="/portfolio-apresentacao.pdf"
               download

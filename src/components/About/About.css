@@ -46,19 +46,21 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #dbeafe;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   margin-top: 5px;
 }
+.highlight-strategy {
+  background: #dbeafe;
+}
 
-.highlight-icon.orange {
+.highlight-organization {
   background: #fed7aa;
 }
 
-.highlight-icon.purple {
+.highlight-results {
   background: #e9d5ff;
 }
 
@@ -142,6 +144,6 @@
   background: #9333ea;
 }
 
-.mt-4 {
+.about-download {
   margin-top: 1rem;
 }
