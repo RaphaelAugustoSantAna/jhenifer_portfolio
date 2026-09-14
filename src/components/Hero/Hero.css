@@ -38,12 +38,6 @@
   line-height: 1.8;
 }
 
-.hero-buttons {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
 .hero-image {
   position: relative;
   display: flex;
