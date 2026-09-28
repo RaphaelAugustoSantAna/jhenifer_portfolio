@@ -1,5 +1,7 @@
+import Contact from "../../components/Contact";
+
 function Contato() {
-  return <h1>Contato</h1>;
+  return <Contact />;
 }
 
 export default Contato;
