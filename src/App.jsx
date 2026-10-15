@@ -4,6 +4,7 @@ import Contato from "./pages/Contato";
 import Home from "./pages/Home";
 import Servicos from "./pages/Servicos";
 import Sobre from "./pages/Sobre";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/servicos" element={<Servicos />} />
         <Route path="/sobre" element={<Sobre />} />
       </Routes>
+      <Footer />
     </>
   );
 }
