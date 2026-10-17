@@ -39,13 +39,26 @@ nav .container {
 
 .logo-button {
   text-decoration: none;
-  color:#1f2937;
+  color: #1f2937;
 }
 
 .nav-links {
   display: none;
   gap: 2rem;
   align-items: center;
+}
+
+.nav-links.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  width: 100%;
+  padding: 1rem 0;
+  gap: 1rem;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .nav-links a {
@@ -63,8 +76,27 @@ li {
   list-style: none;
 }
 
+.menu-toggle {
+  display: block;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #1f2937;
+}
+
 @media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+
   .nav-links {
     display: flex;
+    flex-direction: row;
+    position: static;
+    width: auto;
+    padding: 0;
+    gap: 2rem;
+    border-bottom: none;
   }
 }

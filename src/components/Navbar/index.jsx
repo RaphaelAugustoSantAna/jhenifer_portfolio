@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function NavBar() {
+  const [menuAberto, setMenuAberto] = useState(false);
+
   return (
     <nav>
       <div className="container">
@@ -13,7 +16,15 @@ function NavBar() {
             </div>
           </div>
         </Link>
-        <ul className="nav-links">
+        <button
+          className="menu-toggle"
+          onClick={() => setMenuAberto(!menuAberto)}
+          aria-label={menuAberto ? "Fechar menu" : "Abrir menu"}
+          aria-expanded={menuAberto}
+        >
+          {menuAberto ? "x" : "☰"}
+        </button>
+        <ul className={`nav-links ${menuAberto ? "active" : ""}`}>
           <li>
             <Link to="/">Início</Link>
           </li>
