@@ -1,16 +1,42 @@
-# React + Vite
+# Portfólio — Jhenifer Albuquerque
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio profissional desenvolvido para apresentar os serviços, a trajetória e os canais de contato de Jhenifer Albuquerque, com foco em estratégia, conteúdo e crescimento de negócios no ambiente digital.
 
-Currently, two official plugins are available:
+O projeto foi desenvolvido com React e Vite, priorizando uma interface responsiva, navegação intuitiva e uma experiência consistente em dispositivos móveis, tablets e computadores.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Funcionalidades
 
-## React Compiler
+- Apresentação profissional da Jhenifer.
+- Página sobre sua trajetória.
+- Apresentação dos serviços oferecidos.
+- Página de contato com links para WhatsApp, Instagram e e-mail.
+- Menu de navegação responsivo para celulares, tablets e computadores.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Javascript
+- React Router DOM
+- React Icons
+- CSS3
+- Git e Github
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Pré-requisitos
+
+- Node.js
+- npm
+
+## Como executar o projeto
+
+1. Clone o repositório.
+2. Entre na pasta do projeto.
+3. Instale as dependências.
+4. Inicie o servidor de desenvolvimento.
+
+```bash
+git clone https://github.com/RaphaelAugustoSantAna/jhenifer_portfolio.git
+cd jhenifer_portfolio
+npm install
+npm run dev
+```
