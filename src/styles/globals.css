@@ -34,3 +34,13 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
 }
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+}
